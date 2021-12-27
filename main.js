@@ -4,9 +4,8 @@ the@naver.com
 https://www.omdapi.com/?apikey=7035c60c&s=frozen
 The quick brown fox jumps over the lazy dog.
 abbcccdddd
-`
+d`
 
 //const regexp = new RegExp('the', 'gi')
 
-const regexp = /the/gi
-console.log(str.match(regexp))
+console.log(str.match(/\b/g))
